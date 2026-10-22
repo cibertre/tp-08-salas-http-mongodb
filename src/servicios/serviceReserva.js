@@ -17,7 +17,6 @@ function representarReserva(reserva) {
 function crearServicioReservasMongo() {
   // Ahora aceptamos un filtro (por ejemplo, { sala: "Sala Norte" } o vacío {})
   async function listar(filtroConsulta = {}) {
-    
     const filtro = {};
 
     // Si pasas una sala para filtrar de forma opcional

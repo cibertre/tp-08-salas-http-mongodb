@@ -23,7 +23,7 @@ function crearControladorReservas(servicio, salasPermitidas, turnosPermitidos) {
         mensaje: "No existe una reserva con ese identificador.",
       });
     }
-    res.render("reservas/detalle", { titulo: reserva.nombre, reserva });
+    res.render("reservas/detalle", { titulo: reserva.estudiante, reserva });
   }
   async function crear(req, res) {
     try {
